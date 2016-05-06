@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +17,36 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cI3-AK-uLI">
+                                <rect key="frame" x="20" y="95" width="560" height="47"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="New Zealand Slang">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="43" name="MarkerFelt-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NZLaunch" translatesAutoresizingMaskIntoConstraints="NO" id="gdg-K4-kzX">
+                                <rect key="frame" x="76" y="150" width="448" height="321"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.79215686269999996" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gdg-K4-kzX" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="130" id="0Kp-hl-gRE"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gdg-K4-kzX" secondAttribute="bottom" constant="129" id="7t0-dZ-ze4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gdg-K4-kzX" secondAttribute="trailing" constant="56" id="Dp1-Wc-3Od"/>
+                            <constraint firstItem="gdg-K4-kzX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="56" id="ENn-Rj-kqG"/>
+                            <constraint firstItem="gdg-K4-kzX" firstAttribute="top" secondItem="cI3-AK-uLI" secondAttribute="bottom" constant="8" id="PXk-9m-AbY"/>
+                            <constraint firstItem="cI3-AK-uLI" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="YJf-Rb-oX5"/>
+                            <constraint firstItem="gdg-K4-kzX" firstAttribute="top" secondItem="cI3-AK-uLI" secondAttribute="bottom" constant="8" id="fqc-mt-0f1"/>
+                            <constraint firstItem="cI3-AK-uLI" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="75" id="ftu-Qs-rpd"/>
+                            <constraint firstItem="cI3-AK-uLI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="mtC-Gk-JzV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +54,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="NZLaunch" width="448" height="321"/>
+    </resources>
 </document>

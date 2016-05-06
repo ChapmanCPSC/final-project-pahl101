@@ -7,23 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6759061CDAA8D900741B73 /* WordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6759051CDAA8D900741B73 /* WordDetailViewController.swift */; };
+		CE6759091CDAAEBC00741B73 /* Slang+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6759071CDAAEBC00741B73 /* Slang+CoreDataProperties.swift */; };
+		CE67590A1CDAAEBC00741B73 /* Slang.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6759081CDAAEBC00741B73 /* Slang.swift */; };
 		CEE9DCEF1CD98ACB00E71D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DCEE1CD98ACB00E71D82 /* AppDelegate.swift */; };
 		CEE9DCF11CD98ACB00E71D82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DCF01CD98ACB00E71D82 /* ViewController.swift */; };
-		CEE9DCF41CD98ACB00E71D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE9DCF21CD98ACB00E71D82 /* Main.storyboard */; };
 		CEE9DCF71CD98ACB00E71D82 /* NZSlang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DCF51CD98ACB00E71D82 /* NZSlang.xcdatamodeld */; };
 		CEE9DCF91CD98ACB00E71D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE9DCF81CD98ACB00E71D82 /* Assets.xcassets */; };
 		CEE9DCFC1CD98ACB00E71D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE9DCFA1CD98ACB00E71D82 /* LaunchScreen.storyboard */; };
+		CEE9DD381CD98B1800E71D82 /* SlangWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD031CD98B1800E71D82 /* SlangWords.swift */; };
+		CEE9DD391CD98B1800E71D82 /* Kiwi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD041CD98B1800E71D82 /* Kiwi.swift */; };
+		CEE9DD3A1CD98B1800E71D82 /* Jandals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD051CD98B1800E71D82 /* Jandals.swift */; };
+		CEE9DD3B1CD98B1800E71D82 /* Dairy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD061CD98B1800E71D82 /* Dairy.swift */; };
+		CEE9DD3C1CD98B1800E71D82 /* ChillyBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD071CD98B1800E71D82 /* ChillyBin.swift */; };
+		CEE9DD3D1CD98B1800E71D82 /* Wops.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD081CD98B1800E71D82 /* Wops.swift */; };
+		CEE9DD3E1CD98B1800E71D82 /* Maccas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD091CD98B1800E71D82 /* Maccas.swift */; };
+		CEE9DD3F1CD98B1800E71D82 /* Togs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD0A1CD98B1800E71D82 /* Togs.swift */; };
+		CEE9DD401CD98B1800E71D82 /* BonnetBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD0B1CD98B1800E71D82 /* BonnetBoot.swift */; };
+		CEE9DD411CD98B1800E71D82 /* Scull.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD0C1CD98B1800E71D82 /* Scull.swift */; };
+		CEE9DD421CD98B1800E71D82 /* Buggered.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD0D1CD98B1800E71D82 /* Buggered.swift */; };
+		CEE9DD431CD98B1800E71D82 /* FizzyDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD0E1CD98B1800E71D82 /* FizzyDrink.swift */; };
+		CEE9DD441CD98B1800E71D82 /* HotChips.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD0F1CD98B1800E71D82 /* HotChips.swift */; };
+		CEE9DD451CD98B1800E71D82 /* Kai.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD101CD98B1800E71D82 /* Kai.swift */; };
+		CEE9DD461CD98B1800E71D82 /* ChockaBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD111CD98B1800E71D82 /* ChockaBlock.swift */; };
+		CEE9DD471CD98B1800E71D82 /* Cuppa.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD121CD98B1800E71D82 /* Cuppa.swift */; };
+		CEE9DD481CD98B1800E71D82 /* Jumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD131CD98B1800E71D82 /* Jumper.swift */; };
+		CEE9DD491CD98B1800E71D82 /* Angus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD141CD98B1800E71D82 /* Angus.swift */; };
+		CEE9DD4A1CD98B1800E71D82 /* Hungus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD151CD98B1800E71D82 /* Hungus.swift */; };
+		CEE9DD4B1CD98B1800E71D82 /* KiaOra.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD161CD98B1800E71D82 /* KiaOra.swift */; };
+		CEE9DD4C1CD98B1800E71D82 /* Tramping.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD171CD98B1800E71D82 /* Tramping.swift */; };
+		CEE9DD4D1CD98B1800E71D82 /* OpShops.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD181CD98B1800E71D82 /* OpShops.swift */; };
+		CEE9DD4E1CD98B1800E71D82 /* Waikikamukau.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD191CD98B1800E71D82 /* Waikikamukau.swift */; };
+		CEE9DD4F1CD98B1800E71D82 /* Bro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD1A1CD98B1800E71D82 /* Bro.swift */; };
+		CEE9DD501CD98B1800E71D82 /* AllGood.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD1B1CD98B1800E71D82 /* AllGood.swift */; };
+		CEE9DD511CD98B1800E71D82 /* SweetAs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD1C1CD98B1800E71D82 /* SweetAs.swift */; };
+		CEE9DD521CD98B1800E71D82 /* Faaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD1D1CD98B1800E71D82 /* Faaa.swift */; };
+		CEE9DD531CD98B1800E71D82 /* As.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD1E1CD98B1800E71D82 /* As.swift */; };
+		CEE9DD541CD98B1800E71D82 /* Hardout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD1F1CD98B1800E71D82 /* Hardout.swift */; };
+		CEE9DD551CD98B1800E71D82 /* NotEven.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD201CD98B1800E71D82 /* NotEven.swift */; };
+		CEE9DD561CD98B1800E71D82 /* Ow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD211CD98B1800E71D82 /* Ow.swift */; };
+		CEE9DD571CD98B1800E71D82 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD221CD98B1800E71D82 /* Shot.swift */; };
+		CEE9DD581CD98B1800E71D82 /* AFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD231CD98B1800E71D82 /* AFeed.swift */; };
+		CEE9DD591CD98B1800E71D82 /* Reckon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD241CD98B1800E71D82 /* Reckon.swift */; };
+		CEE9DD5A1CD98B1800E71D82 /* Mean.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD251CD98B1800E71D82 /* Mean.swift */; };
+		CEE9DD5B1CD98B1800E71D82 /* Heaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD261CD98B1800E71D82 /* Heaps.swift */; };
+		CEE9DD5C1CD98B1800E71D82 /* PieceOfPiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD271CD98B1800E71D82 /* PieceOfPiss.swift */; };
+		CEE9DD5D1CD98B1800E71D82 /* TakingThePiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD281CD98B1800E71D82 /* TakingThePiss.swift */; };
+		CEE9DD5E1CD98B1800E71D82 /* YeahNah.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD291CD98B1800E71D82 /* YeahNah.swift */; };
+		CEE9DD5F1CD98B1800E71D82 /* ToTheDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD2A1CD98B1800E71D82 /* ToTheDays.swift */; };
+		CEE9DD601CD98B1800E71D82 /* HonestToWho.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD2B1CD98B1800E71D82 /* HonestToWho.swift */; };
+		CEE9DD611CD98B1800E71D82 /* Gizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD2C1CD98B1800E71D82 /* Gizza.swift */; };
+		CEE9DD621CD98B1800E71D82 /* Shout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD2D1CD98B1800E71D82 /* Shout.swift */; };
+		CEE9DD631CD98B1800E71D82 /* WhatASadGuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD2E1CD98B1800E71D82 /* WhatASadGuy.swift */; };
+		CEE9DD641CD98B1800E71D82 /* Aye.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD2F1CD98B1800E71D82 /* Aye.swift */; };
+		CEE9DD651CD98B1800E71D82 /* Cuz.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD301CD98B1800E71D82 /* Cuz.swift */; };
+		CEE9DD661CD98B1800E71D82 /* Chur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD311CD98B1800E71D82 /* Chur.swift */; };
+		CEE9DD671CD98B1800E71D82 /* CantBeBothered.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD321CD98B1800E71D82 /* CantBeBothered.swift */; };
+		CEE9DD681CD98B1800E71D82 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD331CD98B1800E71D82 /* Choice.swift */; };
+		CEE9DD691CD98B1800E71D82 /* Suss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD341CD98B1800E71D82 /* Suss.swift */; };
+		CEE9DD6A1CD98B1800E71D82 /* Mint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD351CD98B1800E71D82 /* Mint.swift */; };
+		CEE9DD6B1CD98B1800E71D82 /* GapIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD361CD98B1800E71D82 /* GapIt.swift */; };
+		CEE9DD711CD98C8D00E71D82 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD6C1CD98C8D00E71D82 /* LearnViewController.swift */; };
+		CEE9DD721CD98C8D00E71D82 /* SlangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD6D1CD98C8D00E71D82 /* SlangViewController.swift */; };
+		CEE9DD731CD98C8D00E71D82 /* MyWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD6E1CD98C8D00E71D82 /* MyWordsViewController.swift */; };
+		CEE9DD741CD98C8D00E71D82 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD6F1CD98C8D00E71D82 /* TestViewController.swift */; };
+		CEE9DD751CD98C8D00E71D82 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9DD701CD98C8D00E71D82 /* SettingsViewController.swift */; };
+		CEE9DD781CD98CBB00E71D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE9DD761CD98CBB00E71D82 /* Main.storyboard */; };
+		CEF02E621CD9AA2900A6630E /* SlangDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF02E611CD9AA2900A6630E /* SlangDetailViewController.swift */; };
+		CEF02E661CD9ABB300A6630E /* SlangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF02E641CD9ABB300A6630E /* SlangTableViewCell.swift */; };
+		CEF02E671CD9ABB300A6630E /* SlangTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF02E651CD9ABB300A6630E /* SlangTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE6759051CDAA8D900741B73 /* WordDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordDetailViewController.swift; sourceTree = "<group>"; };
+		CE6759071CDAAEBC00741B73 /* Slang+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Slang+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE6759081CDAAEBC00741B73 /* Slang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slang.swift; sourceTree = "<group>"; };
 		CEE9DCEB1CD98ACB00E71D82 /* NZSlang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZSlang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9DCEE1CD98ACB00E71D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE9DCF01CD98ACB00E71D82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEE9DCF31CD98ACB00E71D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEE9DCF61CD98ACB00E71D82 /* NZSlang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NZSlang.xcdatamodel; sourceTree = "<group>"; };
 		CEE9DCF81CD98ACB00E71D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE9DCFB1CD98ACB00E71D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE9DCFD1CD98ACB00E71D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE9DD031CD98B1800E71D82 /* SlangWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlangWords.swift; sourceTree = "<group>"; };
+		CEE9DD041CD98B1800E71D82 /* Kiwi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kiwi.swift; sourceTree = "<group>"; };
+		CEE9DD051CD98B1800E71D82 /* Jandals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jandals.swift; sourceTree = "<group>"; };
+		CEE9DD061CD98B1800E71D82 /* Dairy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dairy.swift; sourceTree = "<group>"; };
+		CEE9DD071CD98B1800E71D82 /* ChillyBin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChillyBin.swift; sourceTree = "<group>"; };
+		CEE9DD081CD98B1800E71D82 /* Wops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wops.swift; sourceTree = "<group>"; };
+		CEE9DD091CD98B1800E71D82 /* Maccas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maccas.swift; sourceTree = "<group>"; };
+		CEE9DD0A1CD98B1800E71D82 /* Togs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Togs.swift; sourceTree = "<group>"; };
+		CEE9DD0B1CD98B1800E71D82 /* BonnetBoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonnetBoot.swift; sourceTree = "<group>"; };
+		CEE9DD0C1CD98B1800E71D82 /* Scull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scull.swift; sourceTree = "<group>"; };
+		CEE9DD0D1CD98B1800E71D82 /* Buggered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buggered.swift; sourceTree = "<group>"; };
+		CEE9DD0E1CD98B1800E71D82 /* FizzyDrink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzyDrink.swift; sourceTree = "<group>"; };
+		CEE9DD0F1CD98B1800E71D82 /* HotChips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotChips.swift; sourceTree = "<group>"; };
+		CEE9DD101CD98B1800E71D82 /* Kai.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kai.swift; sourceTree = "<group>"; };
+		CEE9DD111CD98B1800E71D82 /* ChockaBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChockaBlock.swift; sourceTree = "<group>"; };
+		CEE9DD121CD98B1800E71D82 /* Cuppa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuppa.swift; sourceTree = "<group>"; };
+		CEE9DD131CD98B1800E71D82 /* Jumper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jumper.swift; sourceTree = "<group>"; };
+		CEE9DD141CD98B1800E71D82 /* Angus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Angus.swift; sourceTree = "<group>"; };
+		CEE9DD151CD98B1800E71D82 /* Hungus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hungus.swift; sourceTree = "<group>"; };
+		CEE9DD161CD98B1800E71D82 /* KiaOra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KiaOra.swift; sourceTree = "<group>"; };
+		CEE9DD171CD98B1800E71D82 /* Tramping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tramping.swift; sourceTree = "<group>"; };
+		CEE9DD181CD98B1800E71D82 /* OpShops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpShops.swift; sourceTree = "<group>"; };
+		CEE9DD191CD98B1800E71D82 /* Waikikamukau.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waikikamukau.swift; sourceTree = "<group>"; };
+		CEE9DD1A1CD98B1800E71D82 /* Bro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bro.swift; sourceTree = "<group>"; };
+		CEE9DD1B1CD98B1800E71D82 /* AllGood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllGood.swift; sourceTree = "<group>"; };
+		CEE9DD1C1CD98B1800E71D82 /* SweetAs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAs.swift; sourceTree = "<group>"; };
+		CEE9DD1D1CD98B1800E71D82 /* Faaa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faaa.swift; sourceTree = "<group>"; };
+		CEE9DD1E1CD98B1800E71D82 /* As.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = As.swift; sourceTree = "<group>"; };
+		CEE9DD1F1CD98B1800E71D82 /* Hardout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hardout.swift; sourceTree = "<group>"; };
+		CEE9DD201CD98B1800E71D82 /* NotEven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotEven.swift; sourceTree = "<group>"; };
+		CEE9DD211CD98B1800E71D82 /* Ow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ow.swift; sourceTree = "<group>"; };
+		CEE9DD221CD98B1800E71D82 /* Shot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
+		CEE9DD231CD98B1800E71D82 /* AFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFeed.swift; sourceTree = "<group>"; };
+		CEE9DD241CD98B1800E71D82 /* Reckon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reckon.swift; sourceTree = "<group>"; };
+		CEE9DD251CD98B1800E71D82 /* Mean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mean.swift; sourceTree = "<group>"; };
+		CEE9DD261CD98B1800E71D82 /* Heaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heaps.swift; sourceTree = "<group>"; };
+		CEE9DD271CD98B1800E71D82 /* PieceOfPiss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceOfPiss.swift; sourceTree = "<group>"; };
+		CEE9DD281CD98B1800E71D82 /* TakingThePiss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakingThePiss.swift; sourceTree = "<group>"; };
+		CEE9DD291CD98B1800E71D82 /* YeahNah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YeahNah.swift; sourceTree = "<group>"; };
+		CEE9DD2A1CD98B1800E71D82 /* ToTheDays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToTheDays.swift; sourceTree = "<group>"; };
+		CEE9DD2B1CD98B1800E71D82 /* HonestToWho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HonestToWho.swift; sourceTree = "<group>"; };
+		CEE9DD2C1CD98B1800E71D82 /* Gizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gizza.swift; sourceTree = "<group>"; };
+		CEE9DD2D1CD98B1800E71D82 /* Shout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shout.swift; sourceTree = "<group>"; };
+		CEE9DD2E1CD98B1800E71D82 /* WhatASadGuy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatASadGuy.swift; sourceTree = "<group>"; };
+		CEE9DD2F1CD98B1800E71D82 /* Aye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aye.swift; sourceTree = "<group>"; };
+		CEE9DD301CD98B1800E71D82 /* Cuz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuz.swift; sourceTree = "<group>"; };
+		CEE9DD311CD98B1800E71D82 /* Chur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chur.swift; sourceTree = "<group>"; };
+		CEE9DD321CD98B1800E71D82 /* CantBeBothered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CantBeBothered.swift; sourceTree = "<group>"; };
+		CEE9DD331CD98B1800E71D82 /* Choice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		CEE9DD341CD98B1800E71D82 /* Suss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suss.swift; sourceTree = "<group>"; };
+		CEE9DD351CD98B1800E71D82 /* Mint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mint.swift; sourceTree = "<group>"; };
+		CEE9DD361CD98B1800E71D82 /* GapIt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GapIt.swift; sourceTree = "<group>"; };
+		CEE9DD6C1CD98C8D00E71D82 /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LearnViewController.swift; path = "../../NZSlang(FinalProject)/NZSlang(FinalProject)/LearnViewController.swift"; sourceTree = "<group>"; };
+		CEE9DD6D1CD98C8D00E71D82 /* SlangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlangViewController.swift; path = "../../NZSlang(FinalProject)/NZSlang(FinalProject)/SlangViewController.swift"; sourceTree = "<group>"; };
+		CEE9DD6E1CD98C8D00E71D82 /* MyWordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyWordsViewController.swift; path = "../../NZSlang(FinalProject)/NZSlang(FinalProject)/MyWordsViewController.swift"; sourceTree = "<group>"; };
+		CEE9DD6F1CD98C8D00E71D82 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = "../../NZSlang(FinalProject)/NZSlang(FinalProject)/TestViewController.swift"; sourceTree = "<group>"; };
+		CEE9DD701CD98C8D00E71D82 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../NZSlang(FinalProject)/NZSlang(FinalProject)/SettingsViewController.swift"; sourceTree = "<group>"; };
+		CEE9DD771CD98CBB00E71D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../NZSlang(FinalProject)/NZSlang(FinalProject)/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		CEF02E611CD9AA2900A6630E /* SlangDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlangDetailViewController.swift; sourceTree = "<group>"; };
+		CEF02E641CD9ABB300A6630E /* SlangTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlangTableViewCell.swift; sourceTree = "<group>"; };
+		CEF02E651CD9ABB300A6630E /* SlangTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlangTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +182,95 @@
 		CEE9DCED1CD98ACB00E71D82 /* NZSlang */ = {
 			isa = PBXGroup;
 			children = (
-				CEE9DCEE1CD98ACB00E71D82 /* AppDelegate.swift */,
-				CEE9DCF01CD98ACB00E71D82 /* ViewController.swift */,
-				CEE9DCF21CD98ACB00E71D82 /* Main.storyboard */,
 				CEE9DCF81CD98ACB00E71D82 /* Assets.xcassets */,
+				CEE9DCEE1CD98ACB00E71D82 /* AppDelegate.swift */,
 				CEE9DCFA1CD98ACB00E71D82 /* LaunchScreen.storyboard */,
+				CEE9DD761CD98CBB00E71D82 /* Main.storyboard */,
+				CEF02E631CD9AA3500A6630E /* ViewControllers */,
+				CEE9DD371CD98B1800E71D82 /* Slang */,
 				CEE9DCFD1CD98ACB00E71D82 /* Info.plist */,
 				CEE9DCF51CD98ACB00E71D82 /* NZSlang.xcdatamodeld */,
 			);
 			path = NZSlang;
+			sourceTree = "<group>";
+		};
+		CEE9DD371CD98B1800E71D82 /* Slang */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9DD031CD98B1800E71D82 /* SlangWords.swift */,
+				CEE9DD041CD98B1800E71D82 /* Kiwi.swift */,
+				CEE9DD051CD98B1800E71D82 /* Jandals.swift */,
+				CEE9DD061CD98B1800E71D82 /* Dairy.swift */,
+				CEE9DD071CD98B1800E71D82 /* ChillyBin.swift */,
+				CEE9DD081CD98B1800E71D82 /* Wops.swift */,
+				CEE9DD091CD98B1800E71D82 /* Maccas.swift */,
+				CEE9DD0A1CD98B1800E71D82 /* Togs.swift */,
+				CEE9DD0B1CD98B1800E71D82 /* BonnetBoot.swift */,
+				CEE9DD0C1CD98B1800E71D82 /* Scull.swift */,
+				CEE9DD0D1CD98B1800E71D82 /* Buggered.swift */,
+				CEE9DD0E1CD98B1800E71D82 /* FizzyDrink.swift */,
+				CEE9DD0F1CD98B1800E71D82 /* HotChips.swift */,
+				CEE9DD101CD98B1800E71D82 /* Kai.swift */,
+				CEE9DD111CD98B1800E71D82 /* ChockaBlock.swift */,
+				CEE9DD121CD98B1800E71D82 /* Cuppa.swift */,
+				CEE9DD131CD98B1800E71D82 /* Jumper.swift */,
+				CEE9DD141CD98B1800E71D82 /* Angus.swift */,
+				CEE9DD151CD98B1800E71D82 /* Hungus.swift */,
+				CEE9DD161CD98B1800E71D82 /* KiaOra.swift */,
+				CEE9DD171CD98B1800E71D82 /* Tramping.swift */,
+				CEE9DD181CD98B1800E71D82 /* OpShops.swift */,
+				CEE9DD191CD98B1800E71D82 /* Waikikamukau.swift */,
+				CEE9DD1A1CD98B1800E71D82 /* Bro.swift */,
+				CEE9DD1B1CD98B1800E71D82 /* AllGood.swift */,
+				CEE9DD1C1CD98B1800E71D82 /* SweetAs.swift */,
+				CEE9DD1D1CD98B1800E71D82 /* Faaa.swift */,
+				CEE9DD1E1CD98B1800E71D82 /* As.swift */,
+				CEE9DD1F1CD98B1800E71D82 /* Hardout.swift */,
+				CEE9DD201CD98B1800E71D82 /* NotEven.swift */,
+				CEE9DD211CD98B1800E71D82 /* Ow.swift */,
+				CEE9DD221CD98B1800E71D82 /* Shot.swift */,
+				CEE9DD231CD98B1800E71D82 /* AFeed.swift */,
+				CEE9DD241CD98B1800E71D82 /* Reckon.swift */,
+				CEE9DD251CD98B1800E71D82 /* Mean.swift */,
+				CEE9DD261CD98B1800E71D82 /* Heaps.swift */,
+				CEE9DD271CD98B1800E71D82 /* PieceOfPiss.swift */,
+				CEE9DD281CD98B1800E71D82 /* TakingThePiss.swift */,
+				CEE9DD291CD98B1800E71D82 /* YeahNah.swift */,
+				CEE9DD2A1CD98B1800E71D82 /* ToTheDays.swift */,
+				CEE9DD2B1CD98B1800E71D82 /* HonestToWho.swift */,
+				CEE9DD2C1CD98B1800E71D82 /* Gizza.swift */,
+				CEE9DD2D1CD98B1800E71D82 /* Shout.swift */,
+				CEE9DD2E1CD98B1800E71D82 /* WhatASadGuy.swift */,
+				CEE9DD2F1CD98B1800E71D82 /* Aye.swift */,
+				CEE9DD301CD98B1800E71D82 /* Cuz.swift */,
+				CEE9DD311CD98B1800E71D82 /* Chur.swift */,
+				CEE9DD321CD98B1800E71D82 /* CantBeBothered.swift */,
+				CEE9DD331CD98B1800E71D82 /* Choice.swift */,
+				CEE9DD341CD98B1800E71D82 /* Suss.swift */,
+				CEE9DD351CD98B1800E71D82 /* Mint.swift */,
+				CEE9DD361CD98B1800E71D82 /* GapIt.swift */,
+			);
+			name = Slang;
+			path = "../../NZSlang(FinalProject)/NZSlang(FinalProject)";
+			sourceTree = "<group>";
+		};
+		CEF02E631CD9AA3500A6630E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9DCF01CD98ACB00E71D82 /* ViewController.swift */,
+				CEE9DD6C1CD98C8D00E71D82 /* LearnViewController.swift */,
+				CEE9DD6D1CD98C8D00E71D82 /* SlangViewController.swift */,
+				CEF02E611CD9AA2900A6630E /* SlangDetailViewController.swift */,
+				CEE9DD6E1CD98C8D00E71D82 /* MyWordsViewController.swift */,
+				CE6759051CDAA8D900741B73 /* WordDetailViewController.swift */,
+				CEE9DD6F1CD98C8D00E71D82 /* TestViewController.swift */,
+				CEE9DD701CD98C8D00E71D82 /* SettingsViewController.swift */,
+				CEF02E641CD9ABB300A6630E /* SlangTableViewCell.swift */,
+				CEF02E651CD9ABB300A6630E /* SlangTableViewCell.xib */,
+				CE6759071CDAAEBC00741B73 /* Slang+CoreDataProperties.swift */,
+				CE6759081CDAAEBC00741B73 /* Slang.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +334,8 @@
 			files = (
 				CEE9DCFC1CD98ACB00E71D82 /* LaunchScreen.storyboard in Resources */,
 				CEE9DCF91CD98ACB00E71D82 /* Assets.xcassets in Resources */,
-				CEE9DCF41CD98ACB00E71D82 /* Main.storyboard in Resources */,
+				CEE9DD781CD98CBB00E71D82 /* Main.storyboard in Resources */,
+				CEF02E671CD9ABB300A6630E /* SlangTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,29 +346,91 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE9DD4F1CD98B1800E71D82 /* Bro.swift in Sources */,
+				CEE9DD611CD98B1800E71D82 /* Gizza.swift in Sources */,
+				CEE9DD5D1CD98B1800E71D82 /* TakingThePiss.swift in Sources */,
+				CEE9DD741CD98C8D00E71D82 /* TestViewController.swift in Sources */,
+				CEE9DD6A1CD98B1800E71D82 /* Mint.swift in Sources */,
+				CEE9DD3C1CD98B1800E71D82 /* ChillyBin.swift in Sources */,
+				CEE9DD411CD98B1800E71D82 /* Scull.swift in Sources */,
+				CEE9DD551CD98B1800E71D82 /* NotEven.swift in Sources */,
+				CEE9DD681CD98B1800E71D82 /* Choice.swift in Sources */,
+				CE6759091CDAAEBC00741B73 /* Slang+CoreDataProperties.swift in Sources */,
+				CEE9DD401CD98B1800E71D82 /* BonnetBoot.swift in Sources */,
+				CEE9DD591CD98B1800E71D82 /* Reckon.swift in Sources */,
+				CEE9DD5B1CD98B1800E71D82 /* Heaps.swift in Sources */,
+				CEE9DD4C1CD98B1800E71D82 /* Tramping.swift in Sources */,
+				CEE9DD531CD98B1800E71D82 /* As.swift in Sources */,
+				CEE9DD601CD98B1800E71D82 /* HonestToWho.swift in Sources */,
+				CEE9DD471CD98B1800E71D82 /* Cuppa.swift in Sources */,
+				CEF02E621CD9AA2900A6630E /* SlangDetailViewController.swift in Sources */,
 				CEE9DCF11CD98ACB00E71D82 /* ViewController.swift in Sources */,
+				CEE9DD3D1CD98B1800E71D82 /* Wops.swift in Sources */,
+				CEE9DD491CD98B1800E71D82 /* Angus.swift in Sources */,
+				CEE9DD4A1CD98B1800E71D82 /* Hungus.swift in Sources */,
+				CEE9DD621CD98B1800E71D82 /* Shout.swift in Sources */,
+				CEE9DD481CD98B1800E71D82 /* Jumper.swift in Sources */,
+				CE6759061CDAA8D900741B73 /* WordDetailViewController.swift in Sources */,
+				CEE9DD711CD98C8D00E71D82 /* LearnViewController.swift in Sources */,
+				CEE9DD751CD98C8D00E71D82 /* SettingsViewController.swift in Sources */,
+				CEE9DD571CD98B1800E71D82 /* Shot.swift in Sources */,
+				CEE9DD721CD98C8D00E71D82 /* SlangViewController.swift in Sources */,
+				CEE9DD3B1CD98B1800E71D82 /* Dairy.swift in Sources */,
+				CEE9DD5E1CD98B1800E71D82 /* YeahNah.swift in Sources */,
+				CEE9DD451CD98B1800E71D82 /* Kai.swift in Sources */,
+				CEE9DD3A1CD98B1800E71D82 /* Jandals.swift in Sources */,
+				CEE9DD3F1CD98B1800E71D82 /* Togs.swift in Sources */,
+				CEE9DD651CD98B1800E71D82 /* Cuz.swift in Sources */,
+				CEE9DD671CD98B1800E71D82 /* CantBeBothered.swift in Sources */,
+				CEE9DD3E1CD98B1800E71D82 /* Maccas.swift in Sources */,
+				CEF02E661CD9ABB300A6630E /* SlangTableViewCell.swift in Sources */,
+				CEE9DD581CD98B1800E71D82 /* AFeed.swift in Sources */,
+				CEE9DD4E1CD98B1800E71D82 /* Waikikamukau.swift in Sources */,
 				CEE9DCEF1CD98ACB00E71D82 /* AppDelegate.swift in Sources */,
+				CEE9DD501CD98B1800E71D82 /* AllGood.swift in Sources */,
+				CEE9DD631CD98B1800E71D82 /* WhatASadGuy.swift in Sources */,
+				CEE9DD421CD98B1800E71D82 /* Buggered.swift in Sources */,
+				CEE9DD461CD98B1800E71D82 /* ChockaBlock.swift in Sources */,
+				CEE9DD561CD98B1800E71D82 /* Ow.swift in Sources */,
+				CEE9DD4D1CD98B1800E71D82 /* OpShops.swift in Sources */,
+				CE67590A1CDAAEBC00741B73 /* Slang.swift in Sources */,
+				CEE9DD6B1CD98B1800E71D82 /* GapIt.swift in Sources */,
+				CEE9DD641CD98B1800E71D82 /* Aye.swift in Sources */,
+				CEE9DD661CD98B1800E71D82 /* Chur.swift in Sources */,
+				CEE9DD731CD98C8D00E71D82 /* MyWordsViewController.swift in Sources */,
+				CEE9DD5A1CD98B1800E71D82 /* Mean.swift in Sources */,
+				CEE9DD5C1CD98B1800E71D82 /* PieceOfPiss.swift in Sources */,
+				CEE9DD521CD98B1800E71D82 /* Faaa.swift in Sources */,
+				CEE9DD441CD98B1800E71D82 /* HotChips.swift in Sources */,
 				CEE9DCF71CD98ACB00E71D82 /* NZSlang.xcdatamodeld in Sources */,
+				CEE9DD391CD98B1800E71D82 /* Kiwi.swift in Sources */,
+				CEE9DD381CD98B1800E71D82 /* SlangWords.swift in Sources */,
+				CEE9DD511CD98B1800E71D82 /* SweetAs.swift in Sources */,
+				CEE9DD691CD98B1800E71D82 /* Suss.swift in Sources */,
+				CEE9DD5F1CD98B1800E71D82 /* ToTheDays.swift in Sources */,
+				CEE9DD431CD98B1800E71D82 /* FizzyDrink.swift in Sources */,
+				CEE9DD4B1CD98B1800E71D82 /* KiaOra.swift in Sources */,
+				CEE9DD541CD98B1800E71D82 /* Hardout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEE9DCF21CD98ACB00E71D82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEE9DCF31CD98ACB00E71D82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEE9DCFA1CD98ACB00E71D82 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CEE9DCFB1CD98ACB00E71D82 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE9DD761CD98CBB00E71D82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE9DD771CD98CBB00E71D82 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -293,6 +562,7 @@
 				CEE9DD021CD98ACB00E71D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
